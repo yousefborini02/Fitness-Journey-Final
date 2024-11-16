@@ -1125,7 +1125,7 @@ const GymDetails = () => {
                   <FaMapMarkerAlt className="mr-2" /> Gym Location
                 </h2>
                 <div className="rounded-lg overflow-hidden mb-4" style={{ height: '400px' }}>
-                  <LoadScript googleMapsApiKey="AIzaSyDM6_CMJoXRbu_cztvxTBqwrf16rI0lc5Y">
+                  <LoadScript googleMapsApiKey=Your key ">
                     <GoogleMap
                       mapContainerStyle={{
                         height: "100%",
