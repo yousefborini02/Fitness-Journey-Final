@@ -223,7 +223,7 @@
 //           <button onClick={onClose} className="text-white hover:text-gray-300">✕</button>
 //         </div>
 //         <LoadScript 
-//           googleMapsApiKey="AIzaSyDM6_CMJoXRbu_cztvxTBqwrf16rI0lc5Y"
+//           googleMapsApiKey="key "
 //           libraries={["marker"]}
 //         >
 //           <GoogleMap
@@ -614,7 +614,7 @@ const MapModal = ({ isOpen, onClose, gyms, userLocation }) => {
           <button onClick={onClose} className="text-white hover:text-gray-300">✕</button>
         </div>
         <LoadScript 
-          googleMapsApiKey="AIzaSyDM6_CMJoXRbu_cztvxTBqwrf16rI0lc5Y"
+          googleMapsApiKey="your key"
           libraries={["marker"]}
         >
           <GoogleMap
